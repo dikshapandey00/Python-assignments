@@ -1,0 +1,49 @@
+1. Explain the significance of Python keywords and provide examples of five keywords
+
+Python keywords are resevered words in python with predefined and special meaning. Python use keywords for specific purpose and these keywords cannot be used as variables in python code. These are case sensitive too.
+Example - True , sum, in , not , and , or
+
+
+
+2. Describe the rules for defining identifiers in Python and provide an example
+
+* Identifiers  cannot start with numbers
+* They can have only (0 - 9) numbers, (a-z and A-Z) characters and a ( _ ) underscore
+* Identifiers  cannot  contain any special characters
+* They  cannot  have blank  spaces 
+* Identifiers  are case sensitive
+
+
+
+3.  What are comments in Python, and why are they useful Provide an example
+
+Comments  in python are used to explain the code or to make notes in between the code . comment are of two types ,single line and multiple line comment.
+Single line comment are initiated by "#" symbol.
+Multi  line  comments are written between triple codes in multiple lines(""" comment """)
+Comments are ignored by python .and are not executed. Comments make code easier to understand by other programmer or outsider.
+
+
+
+4. Why is proper indentation important in Python.
+
+Python provides better readability to users. and it is possible by indentation, indentation makes code more readable and clear. 
+Python indentation  are also important for making separate code blocks , it separates one code block from another.
+
+
+
+5. What happens if indentation is incorrect in Python
+
+If indentation is incorrect then interpreter will return an error and code wont work.
+Even if in some cases code runs , but because of wrong indentations desired output will not be achived.
+
+
+
+6. Differentiate between expression and statement in Python with examples
+
+Expressions in python are some statements ,which are evaluated , it have identifiers , operators  and  operands
+Any Instruction that a python interpreter can execute (carry out) is called a Statement.
+
+x = 3                 #statement
+x = x + 5           #expression
+print(x)            #statement
+ 
